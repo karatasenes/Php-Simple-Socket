@@ -1,2 +1,2 @@
 # Simple-Socket-PHP
-Simple php socket server
+Create socket server with PHP
