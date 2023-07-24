@@ -37,6 +37,6 @@ class ScServer implements SocketFace
     }
     public function request(string $request): object
     {
-       return $request;
+       return (object) [];
     }
 }
