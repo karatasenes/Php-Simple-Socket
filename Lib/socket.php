@@ -2,8 +2,8 @@
 
 class ScServer implements SocketFace
 {
-    protected mixed $host;
-    protected mixed $port;
+    protected string $host;
+    protected int $port;
     protected  mixed $socket;
     protected  mixed $client;
     function __construct($host = null, $port = null)
